@@ -18,7 +18,7 @@ $(function () {
             var val = $('.reg_section [name="password"]').val();
             if (val !== value) {
                 return '两次密码不一致'
-            } [23]
+            } 
         }
     })
     // 注册表单监听事件

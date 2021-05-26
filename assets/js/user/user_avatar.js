@@ -16,7 +16,6 @@ $(function () {
         $('#file').trigger('click')
     })
     $('#file').on('change', function (e) {
-        console.log(e.target.files[0]);
         var files = e.target.files
         var file = e.target.files[0];
         var newImgURL = URL.createObjectURL(file)

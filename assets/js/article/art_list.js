@@ -94,7 +94,7 @@ $(function () {
                     }
                     layer.msg(res.message);
                     if (len <= 1) {
-                        q.pagenum = q.pagenum - 1
+                        q.pagenum = q.pagenum === 1 ? q.pagenum : q.pagenum - 1
                     }
                     initTable()
                 }
